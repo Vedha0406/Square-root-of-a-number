@@ -15,10 +15,31 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
+Developed by:Vedhahsree.G
+
+Register No:212223240171
+
+---
+
+def newton_method(number,number_iters=100):
+
+    a=float(number)
+
+    for i in range(number_iters):
+
+        number=0.5*(number+a/number)
+
+    return number
+
+a=int(input())
+
+print("Square root of the number:",newton_method(a))
+
+---
 
 
 ## Output:
-
+![alt text](image-1.png)
 
 
 
